@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Weather from "./weather";
-import Child from "./Child";
 import SearchBar from "./components/SearchBar";
 import fetchWeather from "./weatherAPI";
 import WeatherCard from "./components/WeatherCard";
