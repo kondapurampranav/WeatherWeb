@@ -5,6 +5,7 @@ import Child from "./Child";
 import SearchBar from "./components/SearchBar";
 import fetchWeather from "./weatherAPI";
 import WeatherCard from "./components/WeatherCard";
+import "./App.css";
 
 function App(){
 
@@ -18,7 +19,7 @@ function App(){
     setWeather(data)
   }
   return(
-    <div>
+    <div className="app">
             <h1>Weather App</h1>
 
             <SearchBar 

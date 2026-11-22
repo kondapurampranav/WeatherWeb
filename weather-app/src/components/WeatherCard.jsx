@@ -1,3 +1,5 @@
+import "./WeatherCard.css";
+
 function WeatherCard({ weather }) {
     if (!weather) return null;
     const { location, current } = weather;
