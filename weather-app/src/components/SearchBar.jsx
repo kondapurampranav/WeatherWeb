@@ -1,4 +1,3 @@
-import React from "react";
 import { useState, useEffect } from "react";
 import { searchLocations } from "../weatherAPI";
 import "./SearchBar.css"

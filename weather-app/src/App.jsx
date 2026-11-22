@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import Weather from "./weather";
 import Child from "./Child";
@@ -7,11 +6,11 @@ import fetchWeather from "./weatherAPI";
 import WeatherCard from "./components/WeatherCard";
 import "./App.css";
 
+
 function App(){
 
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
-
 
   async function handleSearch(query){
     console.log(query)
